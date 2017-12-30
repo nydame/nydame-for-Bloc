@@ -67,3 +67,9 @@ footer.mdl-mini-footer::after {
     font-size: 1rem;
     line-height: 3rem;
 }
+
+@media screen and (max-width: 1024px) {
+    header.mdl-layout__header {
+        display: flex;
+    }
+}
