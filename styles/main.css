@@ -56,9 +56,14 @@ footer.mdl-mini-footer::after {
 }
 .mdl-mini-footer__link-list {
     flex: 0 1 auto;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.mdl-mini-footer__link-list li {
+    line-height: unset;
 }
 .photo-credit {
     flex: 0 1 auto;
-    font-size: 14px;
-    line-height: 36px;
+    font-size: 1rem;
+    line-height: 3rem;
 }
