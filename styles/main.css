@@ -1,0 +1,64 @@
+body {
+    padding-bottom: 5rem;
+}
+header {
+    background: url(../images/samuel-zeller-242172.jpg) top center / cover;
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+}
+.site-title {
+    color: fuchsia;
+    color: rgba(255,64,129,0.75);
+    color: hsla(340,100%,62.5%,0.75);
+    font-weight: bold;
+    letter-spacing: 0.15em;
+}
+.slogan {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+blockquote {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 0 10vw;
+}
+blockquote::after,
+blockquote::before {
+    content: "";
+}
+blockquote cite {
+    display: block;
+    font-size: 80%;
+    margin-right: 10vw;
+    text-align: right;
+}
+main {
+    max-width: 900px;
+}
+.project-description {
+    padding-left: 0;
+}
+.project img {
+    width: 100%;
+}
+footer.mdl-mini-footer {
+    bottom: 0;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+footer.mdl-mini-footer::after {
+    display: none;
+}
+.mdl-mini-footer__link-list {
+    flex: 0 1 auto;
+}
+.photo-credit {
+    flex: 0 1 auto;
+    font-size: 14px;
+    line-height: 36px;
+}
